@@ -16,7 +16,7 @@ if(!searchQuery) {
 
 
 function help(){
-    console.log('Usage: node index.js <search query> <number of images>(optional) <output directory>(optional)');
+    console.log('Usage: images-scrapper-cli <search query> <number of images>(optional) <output directory>(optional)');
     console.log('Example: images-scrapper-cli "cats" 10 "./cats"');
     process.exit(1);
 }
